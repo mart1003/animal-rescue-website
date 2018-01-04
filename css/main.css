@@ -1,0 +1,28 @@
+html {
+  font-family: 'Merriweather', serif;
+}
+
+.topnav {
+  background-color: #247ba0;
+  overflow: hidden;
+  font-family: 'Patua One', cursive;
+}
+
+.topnav a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 0.875em 1em;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.topnav a:hover {
+    background-color: #44a5ce;
+    color: #fff;
+}
+
+.topnav a.active {
+    background-color: #ff1654;
+    color: #fff;
+}
