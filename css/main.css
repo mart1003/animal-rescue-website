@@ -46,8 +46,11 @@ footer {
 
 .banner-text {
   color: #fff;
-  padding-top: 15em;
   font-family: 'Patua One', cursive;
+  width: 300px;
+  max-width: 600px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .btn {
@@ -86,10 +89,6 @@ footer {
 
 @media only screen and (min-width: 25em) {
 
-  html {
-
-  }
-
   h1,
   p {
     margin: 0 0 1.3rem;
@@ -98,10 +97,6 @@ footer {
 }
 
 @media only screen and (min-width: 38em) {
-
-  html {
-
-  }
 
   h1,
   p {
@@ -116,13 +111,10 @@ footer {
 
 .banner-text {
   padding-top: 0;
+    width: 500px;
 }
 
 @media only screen and (min-width: 60em) {
-
-  html {
-
-  }
 
   h1,
   p {
@@ -132,8 +124,5 @@ footer {
 }
 
 @media only screen and (min-width: 90em) {
-
-  html {
-   }
 
 }
