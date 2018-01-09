@@ -23,13 +23,13 @@ header nav a {
 }
 
 .topnav a:hover {
-    background-color: #44a5ce;
-    color: #fff;
+    background-color: #fff;
+    color: #247ba0;
     width: 100%;
 }
 
 .topnav a.active {
-    background-color: #ff1654;
+    background-color: #000;
     color: #fff;
     width: 100%;
 }
@@ -47,23 +47,26 @@ footer {
 
 .banner-text {
   color: #fff;
+  padding-top: 15em;
+  font-family: 'Patua One', cursive;
 }
 
 .btn {
   background-color:  #b2dbbf;
   border-color: #247ba0;
   border-radius: 10px;
-  color: #247ba0;
+  color: #000;
+  font-family: 'Patua One', cursive;
 }
 
 .btn:hover {
-  background-color: #ff1654;
+  background-color: #000;
   color: #fff;
   border-color: #247ba0;
 }
 
 .btn-ghost {
- color:  #247ba0;
+ color:  #000;
 }
 
 .card-btn {
@@ -85,7 +88,7 @@ footer {
 @media only screen and (min-width: 25em) {
 
   html {
-    line-height: 1.3;
+
   }
 
   h1,
@@ -98,7 +101,7 @@ footer {
 @media only screen and (min-width: 38em) {
 
   html {
-    line-height: 1.4;
+
   }
 
   h1,
@@ -111,12 +114,15 @@ footer {
     width: 13%;
   }
 
+
+.banner-text {
+  padding-top: 0;
 }
 
 @media only screen and (min-width: 60em) {
 
   html {
-    line-height: 1.5;
+
   }
 
   h1,
