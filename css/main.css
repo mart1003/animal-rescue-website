@@ -22,14 +22,14 @@ header nav a {
 }
 
 nav a:hover {
-  background-color: #fff;
+  background-color: #d7d7d7;
   color: #000;
   width: 100%;
 }
 
 nav a.active {
-  background-color: #84001e;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   width: 100%;
 }
 
@@ -120,8 +120,8 @@ footer {
   }
 
   nav a.active {
-    background-color: #84001e;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     width: 100%;
   }
 
@@ -135,7 +135,7 @@ footer {
   }
 
   nav a:hover {
-    background-color: #fff;
+    background-color: #d7d7d7;
     color: #000;
     width: 100%;
   }
