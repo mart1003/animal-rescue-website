@@ -89,6 +89,19 @@ footer {
   margin: 0;
 }
 
+input:focus {
+  background-color: #d6d6d6;
+  outline: #000;
+}
+
+.btn:focus {
+  background-color: #247ba0;
+}
+
+.textarea {
+  height: 200px;
+}
+
 @media only screen and (min-width: 25em) {
 
   h1,
