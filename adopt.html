@@ -40,9 +40,134 @@
 
   <main role="main" id="main" tabindex="0">
 
+    <div class="pad-0 embed embed-132 [xs-1 s-1 m-1-3 l-1-3 xl-1-3]">
+      <img class="banner-img img-flex relative pad-t-0 embed-item small-hide" src="www/images/pitbull.jpg" alt="">
+    </div>
 
 
-  </main>
+    <section class="central-2">
+      <div class="gutter-1-2 pad-t-1-2">
+        <h1 class="text-upper zetta push-0 caption">Adoption Form</h1>
+        <p class="milli push-0">Bring home your best friend today.</p>
+      </div>
+      <form method="POST" action="https://formspree.io/scha0209@algonquinlive.com">
+        <fieldset class="island-1-2 spacegrid">
+          <legend class="hidden">Adoption Form</legend>
+          <div class="grid">
+            <div class=" unit [ xs-1 s-1 m-1-2 ]">
+              <div class="pad-t-1-2">
+                <label for="firstname">First Name</label>
+                <input class="micro" required id="firstname" name="firstname" type="text">
+              </div>
+              <div class="pad-t-1-2">
+                <label for="lastname">Last Name</label>
+                <input class="micro" required id="lastname" name="lastname" type="text">
+              </div>
+              <div class="pad-t-1-2">
+                <label for="dob">Date of Birth</label>
+                <input class="micro" id="dob" name="dob" type="date">
+              </div>
+              <div class="pad-t-1-2">
+                <label for="address">Address</label>
+                <input class="micro" id="address" name="address">
+              </div>
+              <div class="pad-t-1-2">
+                <label for="province">Province</label>
+                <select class="micro" id="province" name="province">
+                  <option value="">Select a province</option>
+                  <option>Alberta</option>
+                  <option>British Columbia</option>
+                  <option>Manitoba</option>
+                  <option>New Brunswick</option>
+                  <option>Newfoundland &amp; Labrador</option>
+                  <option>Northwest Territories</option>
+                  <option>Nova Scotia</option>
+                  <option>Nunavut</option>
+                  <option>Ontario</option>
+                  <option>Prince Edward Island</option>
+                  <option>Québec</option>
+                  <option>Saskatchewan</option>
+                  <option>Yukon</option>
+                </select>
+              </div>
+              <div class="pad-t-1-2">
+                <label for="phone">Phone Number</label>
+                <input class="micro" id="phone" name="phone" type="tel">
+              </div>
+              <div class="pad-t-1-2">
+                <label for="postal">Postal code</label>
+                <input class="push-1-2" id="postal" name="postal">
+              </div>
+            </div>
+            <div class=" unit [ xs-1 s-1 m-1-2 ]">
+              <div class="pad-t-1-2">
+                <label for="cc">Credit Card Number</label>
+                <input class="micro" id="cc" name="cc" type="number">
+              </div>
+              <div class="pad-t-1-2">
+                <label for="expiry">Expiry Date</label>
+                <input class="micro" id="expiry" name="expiry" type="date">
+              </div>
+              <div class="pad-t-1-2">
+                <label for="cvc">CVC</label>
+                <input class="micro" id="cvc" name="cvc" type="number">
+              </div>
+              <div class="pad-t-1-2">
+                <label for="cardname">Name on Card</label>
+                <input class="micro" id="cardname" name="cardname" type="text">
+              </div>
+              <div>
+                <input class="hidden" id="have" name="have" type="text">
+                <label for="have" class="push-0 pad-t-1-4">Have you ever had pets before?</label>
+              </div>
+              <div class="pad-t-1-8 pad-b-1-8">
+                <div class="inline-block gutter-1-2 push-r">
+                  <input id="yes-pets" name="pets1" type="radio">
+                  <label for="yes-pets">Yes</label>
+                </div>
+                <div class="inline-block">
+                  <input id="no-pets" name="pets2" type="radio">
+                  <label for="no-pets">No</label>
+                </div>
+              </div>
+              <div>
+                <input class="hidden" id="what" name="what" type="text">
+                <label for="what" class="push-0 pad-t-1-4">What type of pets have you had?</label>
+              </div>
+              <div class="inline-block gutter-1-2 push-r pad-t-1-4 pad-b-1-4">
+                <input id="dog" name="pettype1" type="checkbox">
+                <label class="micro" for="dog">Dog</label>
+              </div>
+              <div class="inline-block push-r pad-t-1-4 pad-b-1-4">
+                <input id="cat" name="pettype2" type="checkbox">
+                <label class="micro" for="cat">Cat</label>
+              </div>
+              <div class="inline-block pad-t-1-4 pad-b-1-4">
+                <input id="other" name="pettype3" type="checkbox">
+                <label class="micro" for="other">Other</label>
+              </div>
+              <div class="pad-t-1-4">
+                <label for="specify">Why you would be a great parent for this animal?</label>
+                <input class="micro" id="specify" name="specify" type="text">
+              </div>
+              <div class="pad-t-1-2">
+                <label for="email">Email</label>
+                <input class="micro" id="email" name="email" type="email">
+              </div>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+      <div>
+        <div class="push text-center">
+          <button class="btn btn-light giga" type="submit">Submit<br>Adoption Form</button>
+        </div>
+      </div>
+    </section>
+    <div class="hidden">
+      <a href="adopt.html"></a>
+    </div>
+    </main>
 
   <footer class="micro pad-t">
     <p role="contentinfo">Copyright © 2016 Laurie Ristmae and ARF - All rights reserved | Website made possible by our amazing volunteers.</p>
