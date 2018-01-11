@@ -131,11 +131,21 @@ ul {
   margin: 0;
 }
 
+.narrowcard {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+
 @media only screen and (min-width: 60em) {
 
   h1,
   p {
     margin: 0 0 1.5rem;
+  }
+
+  .narrowcard {
+    padding-left: 0em;
+    padding-right: 0em;
   }
 
 }
