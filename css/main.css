@@ -17,7 +17,7 @@ nav {
 nav a {
   color: #fff;
   text-align: center;
-  padding: 1em;
+  padding: 1em 0em 1em 0em;
   text-decoration: none;
 }
 
@@ -75,16 +75,23 @@ footer {
   text-align: center;
 }
 
+.pet {
+border: 2px solid #333;
+border-radius: 10px;
+padding-bottom: 1em;
+padding-top: .5em;
+}
 
+.available {
+  margin: 0;
+  padding: 0;
+  padding-top: 1em;
+}
 
-
-
-
-
-
-
-
-
+.cardbg {
+  background-color: #e3e3e3;
+  margin: 0;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -111,6 +118,17 @@ footer {
 .banner-text {
   padding-top: 0;
     width: 500px;
+}
+
+nav a.active {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+ul {
+  margin: 0;
 }
 
 @media only screen and (min-width: 60em) {
