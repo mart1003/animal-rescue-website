@@ -82,7 +82,6 @@ footer {
 
 .available {
   margin: 0;
-  padding-top: 1em;
 }
 
 .cardbg {
@@ -112,7 +111,6 @@ footer {
   }
 
   .banner-text {
-    padding-top: 0;
     width: 500px;
   }
 
