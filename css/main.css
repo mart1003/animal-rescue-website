@@ -8,26 +8,26 @@ header nav a {
   width: 100%;
 }
 
-.topnav {
+nav {
   background-color: #247ba0;
   overflow: hidden;
-  font-family: 'Patua One', cursive;
+  font-family: 'Patua One', serif;
 }
 
-.topnav a {
+nav a {
   color: #fff;
   text-align: center;
   padding: 1em;
   text-decoration: none;
 }
 
-.topnav a:hover {
+nav a:hover {
   background-color: #fff;
   color: #247ba0;
   width: 100%;
 }
 
-.topnav a.active {
+nav a.active {
   background-color: #000;
   color: #fff;
   width: 100%;
